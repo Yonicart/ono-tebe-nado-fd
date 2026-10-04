@@ -4,7 +4,7 @@
     align-items: center;
     width: 1100px;
     height: 293px;
-    padding: 92px 50px 96px 50px;
+    padding: 92px 50px 96px 50px;   
 }
 
 .menu ul {
@@ -19,6 +19,7 @@
     font-weight: 400;
     font-style: regular;
     font-size: 18px;
+    line-height: 100%;
     letter-spacing: 0;
     list-style: none;
 }
@@ -37,15 +38,46 @@
 .logo img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
+
+.adress {
+    display: flex;
+    max-width: 240px;
+    justify-self: end;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+}
+
+.header-links {
+    align-items: flex-start;
+    text-underline-offset: 4px;
+}
+
+
 
 .cover {
     display: grid;
+    position: relative;
     width: 1100px;
     height: 757px;
     background-image: url("../images/cover.jpg");
     background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
 }
 
 .word {
@@ -53,22 +85,80 @@
     font-weight: 700;
     font-style: bold;
     font-size: 100px;
+    line-height: 115%;
     letter-spacing: 30%;
     text-transform: uppercase;
     color: #FFFFFF;
+    z-index: 1;
 }
 
-.word_1 {
+.word-ono {
+    display: flex;
     margin-top: 165px;
     margin-left: 50px;
 }
 
-.word_2 {
-    text-align: center;
+.word-tebe {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.word_3 {
-    text-align: right;
+.word-nado {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 663px;
+}
+
+.description {
+    display: flex;
+    width: 1000px;
+    height: 51px;
+    margin: 106px 50px 50px 50px;
+}
+
+.description-text{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: regular;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    z-index: 1;
+}
+
+.subline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 0 12px;
+}
+
+.button-text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: regular;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    z-index: 1;
+}
+
+
+.button-bet {
+    display: flex;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 12px 32px 11px 31px;
+    margin-left: 107px;
 }
 
 .description {
