@@ -17,7 +17,6 @@
 .menu-list {
     font-family: 'Raleway';
     font-weight: 400;
-    font-style: regular;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0;
@@ -48,7 +47,6 @@
     flex-direction: column;
     font-family: 'Raleway';
     font-weight: 400;
-    font-style: regular;
     font-size: 18px;
     line-height: 24.3px;
     letter-spacing: 0%;
@@ -58,8 +56,6 @@
     align-items: flex-start;
     text-underline-offset: 4px;
 }
-
-
 
 .cover {
     display: grid;
@@ -83,7 +79,6 @@
 .word {
     font-family: 'Raleway';
     font-weight: 700;
-    font-style: bold;
     font-size: 100px;
     line-height: 115%;
     letter-spacing: 30%;
@@ -121,7 +116,6 @@
 .description-text{
     font-family: 'Raleway';
     font-weight: 400;
-    font-style: regular;
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0%;
@@ -141,7 +135,6 @@
 .button-text {
     font-family: 'Raleway';
     font-weight: 400;
-    font-style: regular;
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0%;
@@ -168,15 +161,100 @@
 }
 
 
-
 .lots {
-    display: grid;
     width: 1052px;
     height: 723px;
     margin-top: 180px;
     margin-left: 24px;
+    border: 1px solid black;
 
 }
+
+.lots-heading {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-left: 40px;
+    padding-bottom: 27px;
+}
+
+.lots-card-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lots-card-list-item {
+    width: 334px;
+    min-height: 596px;
+}
+
+.card-link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+
+.card {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.card-type-film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-type-book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-type-picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+}
+
+.card-text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.lots-look-more-link {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
 
 .about {
     display: grid;
