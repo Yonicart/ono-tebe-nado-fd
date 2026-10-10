@@ -7,14 +7,12 @@
     padding: 92px 50px 96px 50px;   
 }
 
-.menu ul {
+
+.menu-list {
     display: flex;
     gap: 26px;
     padding: 0;
     margin: 0;
-}
-
-.menu-list {
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 18px;
@@ -23,9 +21,13 @@
     list-style: none;
 }
 
-.menu-list-marker {
+.header-item {
     list-style: circle;
     text-underline-offset: 4px;
+}
+
+.header-link-active {
+    text-decoration: none;
 }
 
 .logo {
@@ -298,12 +300,90 @@
 }
 
 .about-title {
-    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 136px auto 100px 25px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 25px;
 }
 
 .footer {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 1100px;
     height: 180px;
-    margin-top: 775px;
+    padding: 0 50px;
+    margin-top: 180px;
+}
+
+.footer-adress {
+    display: flex;
+    max-width: 265px;
+    justify-self: start;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+}
+
+
+.footer-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.footer-item {
+    list-style: none;
+}
+
+.footer-link-active {
+    text-decoration: none;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 48px;
+}
+
+.footer-social-list-item {
+    list-style: none;
+}
+
+.footer-social-link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.footer-social-icon {
+    width: 48px;
+    height: 48px;
 }
