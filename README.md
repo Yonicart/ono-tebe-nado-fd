@@ -1,1 +1,0 @@
-https://github.com/Yonicart/ono-tebe-nado-fd
