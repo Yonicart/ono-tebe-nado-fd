@@ -88,7 +88,8 @@
     z-index: 0;
 }
 
-.word {
+.title {
+    margin: 165px 50px 0 50px;
     font-family: 'Raleway', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -100,22 +101,31 @@
     z-index: 1;
 }
 
-.word-top {
+.aligned-text-left {
     display: flex;
-    margin-top: 165px;
-    margin-left: 50px;
+    justify-content: flex-start;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
-.word-center {
+.aligned-text-center {
     display: flex;
-    margin-left: 380px;
+    justify-content: center;
+    max-width: 100%;
     margin-top: 20px;
+    overflow-wrap: break-word;
 }
 
-.word-bottom {
+.aligned-text-right {
     display: flex;
-    margin-left: 663px;
+    justify-content: flex-end;
+    max-width: 100%;
     margin-top: 20px;
+    overflow-wrap: break-word;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
 .description {
@@ -337,6 +347,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 1100px;
+    margin-bottom: 83px;
     padding: 0 50px;
 }
 
